@@ -47,15 +47,18 @@
 
 #nuages{
     display: flex;
-    position: relative;
     width: 100%;
     height: 50%;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #nuages1{
     width: 50%;
     height: 100%;
+    overflow: hidden;
 }
+
 #nuages2{
     width: 50%;
     height: 100%;
@@ -69,3 +72,4 @@
     width: 100%;
     height: 100%;
 }
+
