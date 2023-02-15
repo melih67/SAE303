@@ -57,9 +57,10 @@
 
 #nuages{
     display: flex;
-    position: relative;
     width: 100vw;
     height: 50vh; 
+    overflow-y: hidden;
+    overflow-x: hidden;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -67,7 +68,9 @@
 #nuages1{
     width: 50%;
     height: 100%;
+    overflow: hidden;
 }
+
 #nuages2{
     width: 50%;
     height: 100%;
@@ -80,14 +83,4 @@
 #img_nuages2{
     width: 100%;
     height: 100%;
-}
-
-.titre{
-    position: absolute;
-    font-family: 'Anton', sans-serif;    
-    font-size: 50pt;
-    color: white;
-    z-index: 3;
-    left: 50vh;
-    top: 3vw;
 }
