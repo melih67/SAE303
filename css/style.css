@@ -45,3 +45,27 @@
     animation-direction: alternate;
 }
 
+#nuages{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+#nuages1{
+    width: 50%;
+    height: 100%;
+}
+#nuages2{
+    width: 50%;
+    height: 100%;
+}
+
+#img_nuages1{
+    width: 100%;
+    height: 100%;
+}
+#img_nuages2{
+    width: 100%;
+    height: 100%;
+}
